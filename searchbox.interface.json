@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.searchbox"
+    , "extends": "ui.graphic.aria.textbox"
+    , "properties": {
+
+    }
+}

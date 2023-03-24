@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.sectionhead"
+    , "extends": "ui.graphic.aria.structure"
+    , "properties": {
+
+    }
+}

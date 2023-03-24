@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.treegrid"
+    , "extends": [
+        "ui.graphic.aria.tree"
+        , "ui.graphic.aria.grid"
+    ]
+    , "properties": {
+
+    }
+}

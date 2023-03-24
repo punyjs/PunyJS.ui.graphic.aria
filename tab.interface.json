@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.tab"
+    , "extends": [
+        "ui.graphic.aria.section"
+        , "ui.graphic.aria.sectionhead"
+    ]
+    , "properties": {
+
+    }
+}

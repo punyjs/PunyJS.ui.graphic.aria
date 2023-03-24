@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.switch"
+    , "extends": "ui.graphic.aria.checkbox"
+    , "properties": {
+
+    }
+}

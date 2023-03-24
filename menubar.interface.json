@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.menubar"
+    , "extends": "ui.graphic.aria.menu"
+    , "properties": {
+
+    }
+}

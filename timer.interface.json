@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.timer"
+    , "extends": "ui.graphic.aria.status"
+    , "properties": {
+
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.range"
+    , "extends": "ui.graphic.aria.widget"
+    , "properties": {
+
+    }
+}

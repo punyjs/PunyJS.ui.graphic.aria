@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.treeitem"
+    , "extends": [
+        "ui.graphic.aria.option"
+        , "ui.graphic.aria.listitem"
+    ]
+    , "properties": {
+
+    }
+}

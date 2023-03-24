@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.button"
+    , "extends": "ui.graphic.aria.command"
+    , "properties": {
+
+    }
+}

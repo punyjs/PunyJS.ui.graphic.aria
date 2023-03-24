@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.command"
+    , "extends": "ui.graphic.aria.widget"
+    , "is": {
+        "abstract": "true"
+    }
+    , "properties": {
+
+    }
+}

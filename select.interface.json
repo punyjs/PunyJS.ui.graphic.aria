@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.select"
+    , "extends": [
+        "ui.graphic.aria.composite"
+        , "ui.graphic.aria.group"
+    ]
+    , "properties": {
+
+    }
+}

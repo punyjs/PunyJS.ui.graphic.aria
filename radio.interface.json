@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.radio"
+    , "extends": "ui.graphic.aria.input"
+    , "properties": {
+
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.tablist"
+    , "extends": "ui.graphic.aria.composite"
+    , "properties": {
+
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.dialog"
+    , "extends": "ui.graphic.aria.window"
+    , "properties": {
+
+    }
+}

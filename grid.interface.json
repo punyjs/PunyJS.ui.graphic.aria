@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.grid"
+    , "extends": [
+        "ui.graphic.aria.composite"
+        , "ui.graphic.aria.table"
+    ]
+    , "properties": {
+
+    }
+}

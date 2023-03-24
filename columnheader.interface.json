@@ -1,0 +1,11 @@
+{
+    "namespace": "ui.graphic.aria.columnheader"
+    , "extends": [
+        "ui.graphic.aria.gridcell"
+        , "ui.graphic.aria.sectionhead"
+        , "ui.graphic.aria.cell"
+    ]
+    , "properties": {
+
+    }
+}

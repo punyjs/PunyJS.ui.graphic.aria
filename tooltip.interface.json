@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.tooltip"
+    , "extends": "ui.graphic.aria.section"
+    , "properties": {
+
+    }
+}

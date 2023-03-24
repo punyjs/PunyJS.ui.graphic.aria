@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.structure"
+    , "extends": "ui.graphic.aria.roletype"
+    , "properties": {
+
+    }
+}

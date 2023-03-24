@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.row"
+    , "extends": "ui.graphic.aria.group"
+    , "properties": {
+
+    }
+}

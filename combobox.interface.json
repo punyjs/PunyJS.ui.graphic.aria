@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.combobox"
+    , "extends": "ui.graphic.aria.select"
+    , "properties": {
+
+    }
+}

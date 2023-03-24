@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.scrollbar"
+    , "extends": "ui.graphic.aria.range"
+    , "properties": {
+
+    }
+}

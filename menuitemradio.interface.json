@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.menuitemradio"
+    , "extends": [
+        "ui.graphic.aria.menuitemcheckbox"
+        , "ui.graphic.aria.radio"
+    ]
+    , "properties": {
+
+    }
+}

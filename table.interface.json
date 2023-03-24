@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.table"
+    , "extends": "ui.graphic.aria.section"
+    , "properties": {
+
+    }
+}

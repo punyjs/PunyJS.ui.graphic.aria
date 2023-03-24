@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.feed"
+    , "extends": "ui.graphic.aria.list"
+    , "properties": {
+
+    }
+}

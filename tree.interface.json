@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.tree"
+    , "extends": "ui.graphic.aria.select"
+    , "properties": {
+
+    }
+}

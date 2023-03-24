@@ -1,0 +1,204 @@
+{
+    "namespace": "PunyJS.ui.graphic.aria.roletype"
+    , "properties": {
+        "aria-atomic": {
+            "type": "boolean"
+            , "required": false
+            , "description": "Indicates whether assistive technologies will present all, or only parts of, the changed region based on the change notifications defined by the aria-relevant attribute."
+        }
+        , "aria-braillelabel": {
+            "type": "string"
+            , "required": false
+            , "description": "Defines a string value that labels the current element, which is intended to be converted into Braille. See related aria-label."
+        }
+        , "aria-brailleroledescription": {
+            "type": "string"
+            , "required": false
+            , "description": "Defines a human-readable, author-localized abbreviated description for the role of an element, which is intended to be converted into Braille. See related aria-roledescription."
+        }
+        , "aria-busy": {
+            "type": "boolean"
+            , "required": false
+            , "description": "Indicates an element is being modified and that assistive technologies MAY want to wait until the modifications are complete before exposing them to the user."
+            , "is": {
+                "state": true
+            }
+        }
+        , "aria-controls": {
+            "type": "list"
+            , "required": false
+            , "description": "Identifies the element (or elements) whose contents or presence are controlled by the current element. See related aria-owns."
+        }
+        , "aria-current": {
+            "type": "token"
+            , "required": false
+            , "tokens": {
+                "page": "Represents the current page within a set of pages."
+                , "step": "Represents the current step within a process."
+                , "location": "Represents the current location within an environment or context."
+                , "date": "Represents the current date within a collection of dates."
+                , "time": "Represents the current time within a set of times."
+                , "true": "Represents the current item within a set."
+                , "false": "Does not represent the current item within a set."
+            }
+            , "default": "false"
+            , "description": "Indicates the element that represents the current item within a container or set of related elements."
+            , "is": {
+                "state": true
+            }
+        }
+        , "aria-describedby": {
+            "type": "list"
+            , "required": false
+            , "description": "Identifies the element (or elements) that describes the object. See related aria-labelledby and aria-description."
+        }
+        , "aria-details": {
+            "type": "list"
+            , "required": false
+            , "description": "Identifies the element (or elements) that provide additional information related to the object. See related aria-describedby."
+        }
+        , "aria-disabled": {
+            "type": "boolean"
+            , "required": false
+            , "deprecated": "Global use deprecated in ARIA 1.2"
+            , "description": "Indicates that the element is perceivable but disabled, so it is not editable or otherwise operable. See related aria-hidden and aria-readonly."
+            , "is": {
+                "state": true
+            }
+        }
+        , "aria-dropeffect": {
+            "type": "list"
+            , "required": false
+            , "tokens": {
+                "copy": "A duplicate of the source object will be dropped into the target."
+                , "execute": "A function supported by the drop target is executed, using the drag source as an input."
+                , "link": "A reference or shortcut to the dragged object will be created in the target object."
+                , "move": "The source object will be removed from its current location and dropped into the target."
+                , "none": "No operation can be performed"
+                , "popup": "There is a popup menu or dialog that allows the user to choose one of the drag operations."
+            }
+            , "default": "none"
+            , "deprecated": "[Deprecated in ARIA 1.1] Indicates what functions can be performed when a dragged object is released on the drop target."
+            , "description": "This property allows assistive technologies to convey the possible drag options available to users, including whether a pop-up menu of choices is provided by the application."
+        }
+        , "aria-errormessage": {
+            "type": "string"
+            , "required": false
+            , "deprecated": "Global use deprecated in ARIA 1.2"
+            , "description": "Identifies the element that provides an error message for an object. See related aria-invalid and aria-describedby."
+        }
+        , "aria-flowto": {
+            "type": "list"
+            , "required": false
+            , "description": "Identifies the next element (or elements) in an alternate reading order of content."
+        }
+        , "aria-grabbed": {
+            "type": "token"
+            , "required": false
+            , "tokens": {
+                "false": "Indicates that the element supports being dragged."
+                , "true": "Indicates that the element has been \"grabbed\" for dragging."
+                , "undefined": "Indicates that the element does not support being dragged."
+            }
+            , "deprecated": "Deprecated in ARIA 1.1"
+            , "description": "Indicates an element's \"grabbed\" state in a drag-and-drop operation."
+            , "is": {
+                "state": true
+            }
+        }
+        , "aria-haspopup": {
+            "type": "token"
+            , "required": false
+            , "tokens": {
+                "false": "Indicates the element does not have a popup."
+                , "true": "Indicates the popup is a menu."
+                , "menu": "Indicates the popup is a menu."
+                , "listbox": "Indicates the popup is a listbox."
+                , "tree": "Indicates the popup is a tree."
+                , "grid": "Indicates the popup is a grid."
+                , "dialog": "Indicates the popup is a dialog."
+            }
+            , "default": "false"
+            , "deprecated": "Global use deprecated in ARIA 1.2"
+            , "description": "Indicates the availability and type of interactive popup element, such as menu or dialog, that can be triggered by an element."
+        }
+        , "aria-hidden": {
+            "type": "token"
+            , "required": false
+            , "tokens": {
+                "false": "The element is exposed to the accessibility API as if it was rendered."
+                , "true": "The element is hidden from the accessibility API."
+                , "undefined": "The element's hidden state is determined by the user agent based on whether it is rendered."
+            }
+            , "description": "Indicates whether the element is exposed to an accessibility API."
+            , "is": {
+                "state": true
+            }
+        }
+        , "aria-invalid": {
+            "type": "token"
+            , "required": false
+            , "tokens": {
+                "grammar": "A grammatical error was detected."
+                , "false": "There are no detected errors in the value."
+                , "spelling": "A spelling error was detected."
+                , "true": "The value entered by the user has failed validation."
+            }
+            , "default": "false"
+            , "deprecated": "Global use deprecated in ARIA 1.2"
+            , "description": "Indicates the entered value does not conform to the format expected by the application. See related aria-errormessage."
+            , "is": {
+                "state": true
+            }
+        }
+        , "aria-keyshortcuts": {
+            "type": "string"
+            , "required": false
+            , "description": "Indicates keyboard shortcuts that an author has implemented to activate or give focus to an element."
+        }
+        , "aria-label": {
+            "type": "string"
+            , "required": false
+            , "description": "Defines a string value that labels the current element."
+        }
+        , "aria-labelledby": {
+            "type": "list"
+            , "required": false
+            , "description": "Identifies the element (or elements) that labels the current element."
+        }
+        , "aria-live": {
+            "type": "token"
+            , "tokens": {
+                "assertive": "Indicates that updates to the region have the highest priority and should be presented the user immediately."
+                , "off": "Indicates that updates to the region should not be presented to the user unless the user is currently focused on that region."
+                , "polite": "Indicates that updates to the region should be presented at the next graceful opportunity"
+            }
+            , "default": "off"
+            , "required": false
+            , "description": "Indicates that an element will be updated, and describes the types of updates the user agents, assistive technologies, and user can expect from the live region."
+        }
+        , "aria-owns": {
+            "type": "list"
+            , "required": false
+            , "description": "Identifies an element (or elements) in order to define a visual, functional, or contextual parent/child relationship between DOM elements"
+        }
+        , "aria-relevant": {
+            "type": "token"
+            , "tokens": {
+                "additions": "Element nodes are added to the accessibility tree within the live region."
+                , "additions text ": "Equivalent to the combination of values, \"additions text\"."
+                , "all": "Equivalent to the combination of all values, \"additions removals text\"."
+                , "removals": "Text content, a text alternative, or an element node within the live region is removed from the accessibility tree."
+                , "text": "Text content or a text alternative is added to any descendant in the accessibility tree of the live region."
+            }
+            , "default": "additions text"
+            , "required": false
+            , "description": "Indicates what notifications the user agent will trigger when the accessibility tree within a live region is modified."
+        }
+        , "aria-roledescription": {
+            "type": "string"
+            , "required": false
+            , "description": "Defines a human-readable, author-localized description for the role of an element."
+        }
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.progressbar"
+    , "extends": "ui.graphic.aria.range"
+    , "properties": {
+
+    }
+}

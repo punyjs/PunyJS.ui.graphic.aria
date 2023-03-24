@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.checkbox"
+    , "extends": "ui.graphic.aria.input"
+    , "properties": {
+
+    }
+}

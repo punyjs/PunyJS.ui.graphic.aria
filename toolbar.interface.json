@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.toolbar"
+    , "extends": "ui.graphic.aria.group"
+    , "properties": {
+
+    }
+}

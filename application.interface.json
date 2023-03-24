@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.application"
+    , "extends": "ui.graphic.aria.structure"
+    , "properties": {
+
+    }
+}

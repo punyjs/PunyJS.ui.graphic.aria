@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.gridcell"
+    , "extends": [
+        "ui.graphic.aria.composite"
+        , "ui.graphic.aria.cell"
+    ]
+    , "properties": {
+
+    }
+}

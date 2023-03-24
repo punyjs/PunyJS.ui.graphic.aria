@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.option"
+    , "extends": "ui.graphic.aria.input"
+    , "properties": {
+
+    }
+}

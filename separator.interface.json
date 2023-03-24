@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.separator"
+    , "extends": [
+        "ui.graphic.aria.widget"
+        , "ui.graphic.aria.structure"
+    ]
+    , "properties": {
+
+    }
+}

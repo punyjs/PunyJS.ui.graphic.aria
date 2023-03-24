@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.link"
+    , "extends": "ui.graphic.aria.command"
+    , "properties": {
+
+    }
+}

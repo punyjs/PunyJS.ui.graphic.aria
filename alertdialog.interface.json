@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.alertdialog"
+    , "extends": [
+        "ui.graphic.aria.alert"
+        , "ui.graphic.aria.dialog"
+    ]
+    , "properties": {
+
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.listitem"
+    , "extends": "ui.graphic.aria.section"
+    , "properties": {
+
+    }
+}

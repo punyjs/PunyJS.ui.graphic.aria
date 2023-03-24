@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.directory"
+    , "extends": "ui.graphic.aria.list"
+    , "properties": {
+
+    }
+}

@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.menuitem"
+    , "extends": "ui.graphic.aria.command"
+    , "properties": {
+
+    }
+}

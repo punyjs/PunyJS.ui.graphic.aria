@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.widget"
+    , "extends": "ui.graphic.aria.roletype"
+    , "is": {
+        "abstract": "true"
+    }
+    , "properties": {
+
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "namespace": "ui.graphic.aria.spinbutton"
+    , "extends": [
+        "ui.graphic.aria.range"
+        , "ui.graphic.aria.input"
+    ]
+    , "properties": {
+
+    }
+}

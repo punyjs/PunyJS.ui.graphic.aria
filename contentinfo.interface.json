@@ -1,0 +1,7 @@
+{
+    "namespace": "ui.graphic.aria.contentinfo"
+    , "extends": "ui.graphic.aria.landmark"
+    , "properties": {
+
+    }
+}
